@@ -19,7 +19,8 @@ Spring Boot Consumer: Consumes the data from Kafka for further processing.<br>
    - Use the command: `docker-compose up -d`.
 
 3. **Restart Containers if Necessary**:
-   - If you encounter any issues, you might need to restart the containers using: `docker-compose restart`.
+   - If you encounter any issues,check the logs for the  container to ensure it started correctly and is running: `docker-compose logs`
+   - You might need to restart the containers using: `docker-compose restart`.
 
 4. **Submit Spark Job**:
    - Make sure your Spark job is correctly set up to read from Kafka and process the data.
